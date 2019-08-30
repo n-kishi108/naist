@@ -1,0 +1,5 @@
+./numberPlate/6-29.jpg 2
+./numberPlate/11-11.jpg 0
+./numberPlate/11-11n1.jpg 0
+./numberPlate/11-11n2.jpg 0
+./numberPlate/12-34a.jpg 1

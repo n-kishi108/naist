@@ -1,0 +1,11 @@
+./test/41-14.jpg 2
+./test/50-00.jpg 2
+./test/50-31.jpg 2
+./test/53-58.jpg 2
+./test/56-65.jpg 2
+./test/57-86.jpg 2
+./test/77-88.jpg 2
+./test/78-90.jpg 2
+./test/91-78.jpg 2
+./numberPlate/12-34mu.jpg 1
+./numberPlate/11-11n4.jpg 0

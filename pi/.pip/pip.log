@@ -1,0 +1,33 @@
+Exception:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/pip/basecommand.py", line 122, in main
+    status = self.run(options, args)
+  File "/usr/lib/python2.7/dist-packages/pip/commands/search.py", line 40, in run
+    pypi_hits = self.search(query, index_url)
+  File "/usr/lib/python2.7/dist-packages/pip/commands/search.py", line 54, in search
+    hits = pypi.search({'name': query, 'summary': query}, 'or')
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1233, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1591, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1273, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1301, in single_request
+    self.send_content(h, request_body)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1448, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python2.7/httplib.py", line 1035, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 879, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 841, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 1250, in connect
+    server_hostname=server_hostname)
+  File "/usr/lib/python2.7/ssl.py", line 350, in wrap_socket
+    _context=self)
+  File "/usr/lib/python2.7/ssl.py", line 566, in __init__
+    self.do_handshake()
+  File "/usr/lib/python2.7/ssl.py", line 788, in do_handshake
+    self._sslobj.do_handshake()
+SSLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:581)

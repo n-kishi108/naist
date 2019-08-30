@@ -1,0 +1,5 @@
+./test/2-14.jpg 2
+./test/2-68.jpg 2
+./numberPlate/11-11n5.jpg 0
+./test/12-34no.jpg 1
+./test/12-34ya.jpg 1
